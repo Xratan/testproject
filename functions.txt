@@ -1,0 +1,33 @@
+//function declaration
+function test();
+
+//function defination
+function test()
+{
+
+}
+
+//function with parameters
+function add(a,b)
+{
+    return a+b; // returning value
+}
+
+test()// calling a function
+
+result = add(12,23); // calling function with parameters
+//assigned a return value to result variable
+console.log(add(45,8)); // another way of calling function
+
+function display(value,callback)
+{
+
+}
+
+display(5,function1)
+
+function helloworld()
+{
+    return function(){ message="hello world "; return message};
+    //return function from function
+}
